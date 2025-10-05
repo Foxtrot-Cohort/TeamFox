@@ -1,0 +1,51 @@
+/* css/journal.css */
+h2 {
+    text-align: center;
+    color: #0055ff;
+}
+
+.week {
+    background-color: #f4f7ff;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #0055ff;
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+/* Interactive Journal Section Styles */
+
+.week {
+    background-color: #f9faff;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Collapsed state: hide the list initially */
+.week ul {
+    display: none;
+    margin-top: 0.5rem;
+}
+
+/* Expanded state */
+.week.expanded {
+    background-color: #eaf0ff;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Show list when expanded */
+.week.expanded ul {
+    display: block;
+}

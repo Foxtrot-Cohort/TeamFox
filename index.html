@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOXTROT - The Team</title>
+
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Section Styles -->
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/journal.css" />
+</head>
+
+<body>
+    <header>
+        <navbar>
+            <h1>Foxtrot Cohort</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#journal">Journal</a></li>
+                </ul>
+            </nav>
+        </navbar>
+    </header>
+
+    <!-- STUDENT 1: HOME SECTION -->
+    <main id="home">
+        <section>
+            <h2>Welcome to Foxtrot</h2>
+            <!-- Greeting will be added here by JavaScript -->
+            <h3 id="greeting"></h3>
+
+            <p>
+                We are a group of passionate beginner web developers learning to build
+                beautiful and functional websites together.
+            </p>
+
+            <h3>Meet the Team</h3>
+            <ul>
+                <li>Double D - Team Lead</li>
+                <li>Timileyin - Developer</li>
+                <li>Emmanuel - Developer</li>
+                <li>Mohammed - Developer</li>
+                <li>Michael - Developer</li>
+                <li>Funke - Product Designer</li>
+            </ul>
+
+            <!-- Theme Toggle -->
+            <button id="toggle-theme">Toggle Dark Mode</button>
+        </section>
+    </main>
+
+    <!-- STUDENT 2: ABOUT SECTION -->
+    <main id="about">
+        <h2>About Our Team</h2>
+        <section class="member">
+            <img src="https://image-placeholder.com/images/actual-size/75x75.png" alt="Double D">
+            <h3>Double D</h3>
+            <p>Daniel loves front-end development and helping others learn.</p>
+        </section>
+
+        <section class="member">
+            <img src="https://image-placeholder.com/images/actual-size/75x75.png" alt="Timmy">
+            <h3>Timileyin</h3>
+            <p>Timileyin has a keen eye for design and brings creativity to our projects.</p>
+        </section>
+
+        <section class="member">
+            <img src="https://image-placeholder.com/images/actual-size/75x75.png" alt="Emmanuel">
+            <h3>Emmanuel</h3>
+            <p>Emmanuel enjoys coding logic and finding clean solutions to problems.</p>
+        </section>
+
+        <section class="member">
+            <img src="https://image-placeholder.com/images/actual-size/75x75.png" alt="Mohammed">
+            <h3>Mohammed</h3>
+            <p>Mohammed enjoys coding logic and finding clean solutions to problems.</p>
+        </section>
+
+        <section class="member">
+            <img src="https://image-placeholder.com/images/actual-size/75x75.png" alt="Michael">
+            <h3>Michael</h3>
+            <p>Michael enjoys coding logic and finding clean solutions to problems.</p>
+        </section>
+
+        <section class="member">
+            <img src="https://image-placeholder.com/images/actual-size/75x75.png" alt="Funke">
+            <h3>Funke</h3>
+            <p>Funke enjoys coding logic and finding clean solutions to problems.</p>
+        </section>
+    </main>
+
+
+    <!-- STUDENT 3: PROJECTS SECTION -->
+    <main id="projects">
+        <h2>Our Projects</h2>
+
+        <section class="projects">
+            <article class="card">
+                <h3>Personal Portfolio Website</h3>
+                <p>A simple portfolio website showcasing skills and projects.</p>
+            </article>
+
+            <article class="card">
+                <h3>Weather App</h3>
+                <p>A basic app that displays weather information using a free API.</p>
+            </article>
+
+            <article class="card">
+                <h3>Quiz Game</h3>
+                <p>A fun web-based quiz for learning HTML and CSS.</p>
+            </article>
+
+            <article class="card">
+                <h3>Mood Tracker</h3>
+                <p>A web-based mood tracker.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- STUDENT 4: CONTACT SECTION -->
+    <main id="contact">
+        <h2>Contact Us</h2>
+
+        <!-- Important: add id for form for JS selection -->
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <!-- STUDENT 5: JOURNAL SECTION -->
+    <main id="journal">
+        <h2>Team Journal</h2>
+
+        <section class="week">
+            <h3>Week 1 - Learning HTML</h3>
+            <ul>
+                <li>Double D: Teaching the team collaboration</li>
+                <li>Timileyin: Learned about semantic tags.</li>
+                <li>Emmanuel: Built my first page using sections.</li>
+                <li>Mohammed: Practiced linking between pages.</li>
+                <li>Michael: Created my first form page!</li>
+                <li>Funke: Design the project!</li>
+            </ul>
+        </section>
+
+        <section class="week">
+            <h3>Week 2 - CSS Basics</h3>
+            <ul>
+                <li>Double D: Styled the nav bar and footer.</li>
+                <li>Timileyin: Learned about the box model.</li>
+                <li>Michael: Used Flexbox for layout.</li>
+                <li>Mohammed: Practiced color and font styling.</li>
+                <li>Michael: Styled a form beautifully!</li>
+                <li>Funke: Joined the developers</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2025 Foxtrot Cohort. All rights reserved.</p>
+    </footer>
+
+    <!-- Shared JavaScript File -->
+    <script src="script.js"></script>
+</body>
+
+</html>

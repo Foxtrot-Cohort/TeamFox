@@ -1,0 +1,32 @@
+/* css/about.css */
+h2 {
+    text-align: center;
+    color: #0055ff;
+}
+
+.member {
+    text-align: center;
+    margin: 2rem 0;
+    background-color: #f4f7ff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.member img {
+    border-radius: 50%;
+}
+
+.member h3 {
+    margin-bottom: 0.3rem;
+}
+
+.generated-members {
+    margin-top: 2rem;
+    border-top: 2px solid #e0e0e0;
+    padding-top: 1rem;
+}
+
+.member.generated {
+    background-color: #eef3ff;
+}
